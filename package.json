@@ -1,30 +1,26 @@
 {
-  "name": "puppeteer-thumbnail",
+  "name": "html3png",
   "version": "1.0.0",
-  "description": "puppeteer-thumbnail is the tool for converting HTML to image.",
-  "main": "thumbnail.js",
+  "description": "html3png is a tool for converting html to png",
+  "main": "main.js",
   "scripts": {
-    "start": "node app/thumbnail.js",
+    "start": "node lib/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TaKO8Ki/puppeteer-thumbnail.git"
+    "url": "git+https://github.com/TaKO8Ki/html3png.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TaKO8Ki/puppeteer-thumbnail/issues"
+    "url": "https://github.com/TaKO8Ki/html3png/issues"
   },
-  "homepage": "https://github.com/TaKO8Ki/puppeteer-thumbnail#readme",
+  "homepage": "https://github.com/TaKO8Ki/html3png#readme",
   "dependencies": {
     "chromium": "^2.1.1",
-    "commander": "^5.1.0",
-    "dotenv": "^8.1.0",
-    "minimist": "^1.2.5",
+    "eslint": "^7.0.0",
     "node-html-parser": "^1.1.16",
-    "openurl": "^1.1.1",
-    "opn": "^6.0.0",
     "puppeteer": "^1.19.0",
     "yargs": "^15.3.1"
   }
