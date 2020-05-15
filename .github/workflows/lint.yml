@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 14
 
-      # ESLint and Prettier must be in `package.json`
       - name: Install Node.js dependencies
         run: npm install
 
@@ -24,6 +23,5 @@ jobs:
         uses: samuelmeuli/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
-          # Enable linters
           eslint: true
           prettier: true
