@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node lib/main.js",
         "test": "echo \"Error: no test specified\"",
-        "build": "webpack --mode production && sed -i '' -e $'1{\ni\\\n#!/usr/bin/env node\n}' build/bundle"
+        "build": "webpack --mode production && sed -i \"1i#!/usr/bin/env node\n\" build/bundle"
     },
     "repository": {
         "type": "git",
