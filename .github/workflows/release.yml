@@ -1,6 +1,6 @@
 name: Release
 on:
-	puhs:
+	push:
 	release:
 		types: [published]
 jobs:
