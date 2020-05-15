@@ -1,8 +1,8 @@
 name: Release
 on:
-	push:
-	release:
-		types: [published]
+  push:
+  release:
+    types: [published]
 jobs:
   release:
     name: Check version, Add tag and release
@@ -17,8 +17,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install can-npm-publish and dependencies
         run: |
-					npm install can-npm-publish
-					npm install
+          npm install can-npm-publish
+          npm install
           npm ci
       - name: Check version and Add tag
         env:
