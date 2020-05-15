@@ -1,4 +1,4 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-core");
 const yargs = require("yargs");
 const fs = require("fs");
 
@@ -30,7 +30,7 @@ let id =
     const browser = await puppeteer.launch({
         args: ["--no-sandbox", "--disable-setuid-sandbox"],
         executablePath:
-            "node_modules/puppeteer/.local-chromium/mac-686378/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
+            "node_modules/chromium/lib/chromium/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
     });
     try {
         let html = fs.readFileSync(inputName, "utf8");
