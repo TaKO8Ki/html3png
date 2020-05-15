@@ -1,5 +1,6 @@
 name: Release
 on:
+	puhs:
 	release:
 		types: [published]
 jobs:
