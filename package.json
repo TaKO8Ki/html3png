@@ -1,31 +1,31 @@
 {
-  "name": "html3png",
-  "version": "1.0.0",
-  "description": "html3png is a tool for converting html to png",
-  "main": "main.js",
-  "scripts": {
-    "start": "node lib/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TaKO8Ki/html3png.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TaKO8Ki/html3png/issues"
-  },
-  "homepage": "https://github.com/TaKO8Ki/html3png#readme",
-  "dependencies": {
-    "chromium": "^2.1.1",
-    "node-html-parser": "^1.1.16",
-    "prettier": "^2.0.5",
-    "puppeteer": "^1.19.0",
-    "yargs": "^15.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "eslint-plugin-react": "^7.20.0"
-  }
+    "name": "html3png",
+    "version": "1.0.0",
+    "description": "html3png is a tool for converting html to png",
+    "main": "main.js",
+    "scripts": {
+        "start": "node lib/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TaKO8Ki/html3png.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TaKO8Ki/html3png/issues"
+    },
+    "homepage": "https://github.com/TaKO8Ki/html3png#readme",
+    "dependencies": {
+        "chromium": "^2.1.1",
+        "node-html-parser": "^1.1.16",
+        "prettier": "^2.0.5",
+        "puppeteer": "^1.19.0",
+        "yargs": "^15.3.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.0.0",
+        "eslint-plugin-react": "^7.20.0"
+    }
 }
