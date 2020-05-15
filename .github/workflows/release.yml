@@ -3,6 +3,7 @@ on:
   release:
     types: [published]
 jobs:
+  push:
   release:
     name: Check version, Add tag and release
     runs-on: ubuntu-latest
