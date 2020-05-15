@@ -29,6 +29,8 @@ let id =
 (async () => {
     const browser = await puppeteer.launch({
         args: ["--no-sandbox", "--disable-setuid-sandbox"],
+        executablePath:
+            "node_modules/puppeteer/.local-chromium/mac-686378/chrome-mac/Chromium.app/Contents/MacOS/Chromium",
     });
     try {
         let html = fs.readFileSync(inputName, "utf8");
