@@ -33,7 +33,6 @@ Options:
 
 Examples:
 html3png -f example.html -o out.png
-
 ```
 
 ## Usage
@@ -46,7 +45,7 @@ html3png -f example.html -o out.png
 $ html3png -f example.html -o example.png
 ```
 
-![1](https://user-images.githubusercontent.com/41065217/82091130-cb67f180-9731-11ea-8ea1-cd9211608895.png)
+![1](https://user-images.githubusercontent.com/41065217/82092663-afb21a80-9734-11ea-9dac-3bd40590e0ca.png)
 
 ### Convert clippted HTML to PNG
 
