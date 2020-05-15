@@ -1,6 +1,6 @@
 {
     "name": "html3png",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "html3png is a tool for converting html to png",
     "main": "main.js",
     "scripts": {
