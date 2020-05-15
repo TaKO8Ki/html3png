@@ -1,8 +1,7 @@
 name: Release
 on:
-  push:
-    release:
-      types: [published]
+	release:
+		types: [published]
 jobs:
   release:
     name: Check version, Add tag and release
