@@ -19,9 +19,12 @@
   "homepage": "https://github.com/TaKO8Ki/html3png#readme",
   "dependencies": {
     "chromium": "^2.1.1",
-    "eslint": "^7.0.0",
     "node-html-parser": "^1.1.16",
     "puppeteer": "^1.19.0",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.20.0"
   }
 }
