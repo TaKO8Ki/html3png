@@ -41,6 +41,8 @@ html3png -f example.html -o out.png
 
 ## Usage
 
+[exapmle.html](https://github.com/TaKO8Ki/html3png/blob/master/example.html)
+
 ### Convert HTML to PNG
 
 ```sh
@@ -52,6 +54,8 @@ $ html3png -f example.html -o example.png
 ![1](https://user-images.githubusercontent.com/41065217/82092663-afb21a80-9734-11ea-9dac-3bd40590e0ca.png)
 
 ### Convert clippted HTML to PNG
+
+[exapmle.html](https://github.com/TaKO8Ki/html3png/blob/master/example.html)
 
 ```sh
 # if you use id flag, you can convert html inside a element with id you give to png.
