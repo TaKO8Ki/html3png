@@ -1,11 +1,13 @@
 # html3png
 
 <!-- TOC -->
--   [Installation](#installation)
--   [Flags](#flags)
--   [Usage](#usage)
-    -   [Convert HTML to PNG](#convert-html-to-png)
-    -   [Convert clippted HTML to PNG](#convert-clippted-html-to-png)
+
+-   [html3png](#html3png)
+    -   [Installation](#installation)
+    -   [Flags](#flags)
+    -   [Usage](#usage)
+        -   [Convert HTML to PNG](#convert-html-to-png)
+        -   [Convert clippted HTML to PNG](#convert-clippted-html-to-png)
 
 <!-- /TOC -->
 
