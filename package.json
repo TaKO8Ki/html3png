@@ -17,6 +17,11 @@
     "bugs": {
         "url": "https://github.com/TaKO8Ki/html3png/issues"
     },
+    "keywords": [
+        "html",
+        "png",
+        "puppeteer"
+    ],
     "homepage": "https://github.com/TaKO8Ki/html3png#readme",
     "dependencies": {
         "chromium": "^2.1.1",
