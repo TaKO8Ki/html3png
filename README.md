@@ -20,7 +20,7 @@ html3png is a CLI for converting HTML to PNG. If you set --id flag, you can clip
 You can install via npm.
 
 ```sh
-$ npm install html3png
+$ npm install -g html3png
 ```
 
 ## Flags
