@@ -1,5 +1,9 @@
 # html3png
 
+![](https://github.com/TaKO8Ki/html3png/workflows/CI/badge.svg)　![](https://img.shields.io/npm/dt/html3png.svg)　![](https://img.shields.io/npm/l/html3png)
+
+html3png is a CLI for converting HTML to PNG. If you set --id flag, you can clip your HTML and convert it to PNG.
+
 <!-- TOC -->
 
 -   [html3png](#html3png)
