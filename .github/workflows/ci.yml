@@ -1,8 +1,26 @@
-name: Lint
+name: CI
 
 on: push
 
 jobs:
+  build_and_test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out git repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - name: Install Node.js dependencies
+        run: npm install
+      - name: Test
+        run: npm run test
+      - name: Build
+        run: npm run build
+
   run-linters:
     name: Run linters
     runs-on: ubuntu-latest
@@ -10,15 +28,12 @@ jobs:
     steps:
       - name: Check out git repository
         uses: actions/checkout@v2
-
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 14
-
       - name: Install Node.js dependencies
         run: npm install
-
       - name: Run linters
         uses: samuelmeuli/lint-action@v1
         with:
