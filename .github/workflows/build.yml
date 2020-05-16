@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-			- name: Install Node.js dependencies
+      - name: Install Node.js dependencies
         run: npm install
       - name: Test
         run: npm run test
